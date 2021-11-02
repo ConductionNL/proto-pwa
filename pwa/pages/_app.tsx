@@ -4,6 +4,8 @@ import { ThemeProvider, Theme, StyledEngineProvider, createTheme } from '@mui/ma
 import createCache from "@emotion/cache";
 import getConfig from "next/config";
 import {CacheProvider} from "@emotion/react";
+import "@utrecht/design-tokens/dist/index.css";
+import {useEffect} from "react";
 
 declare module '@mui/styles/defaultTheme' {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -21,6 +23,10 @@ const cache = createCache({
 const theme = createTheme();
 
 function MyApp({ Component, pageProps }: AppProps) {
+
+  useEffect(() => {
+    import("@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js");
+  }, []);
 
   return (
       <CacheProvider value={cache}>

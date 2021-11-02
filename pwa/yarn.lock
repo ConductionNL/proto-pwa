@@ -1100,6 +1100,16 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@stencil/angular-output-target@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@stencil/angular-output-target/-/angular-output-target-0.0.7.tgz#48a115cc5e0764a8481d9feb6e3e73f0e2ee77ff"
+  integrity sha512-GM+Sx0KL1cuQ4ysf20iojKBw/Yvuyx3mFWBaqSb3lDxfg4Kg5OHADoaN6L4rMZu3P3G3e2HT5Ut35BuFKIyT+Q==
+
+"@stencil/core@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.6.0.tgz#29da96d8b6fc83e689b9f297ef3e8b59b90a676a"
+  integrity sha512-QsxWayZyusnqSZrlCl81R71rA3KqFjVVQSH4E0rGN15F1GdQaFonKlHLyCOLKLig1zzC+DQkLLiUuocexuvdeQ==
+
 "@stoplight/better-ajv-errors@0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@stoplight/better-ajv-errors/-/better-ajv-errors-0.0.4.tgz#2147e0e4e9918519e885e74b15aa458a89eb2337"
@@ -1493,6 +1503,24 @@
   integrity sha512-T8Yc9wt/5LbJyCaLiHPReJa0kApcIgJ7Bn735GjItUfh08Z1pJvu8QZqb9s+mMvKV6WUQRV7K2R46YbjMXTTJw==
   dependencies:
     "@types/yargs-parser" "*"
+
+"@utrecht/design-tokens@1.0.0-alpha.51":
+  version "1.0.0-alpha.51"
+  resolved "https://registry.yarnpkg.com/@utrecht/design-tokens/-/design-tokens-1.0.0-alpha.51.tgz#97c03dbe6fd47a890abe6f565c05ea7d76434f6c"
+  integrity sha512-gmgkrlfGIbXH58czs6LLhhNVPfS+REKvLBmn3xL7C3ipe5927KOet967XaKcYbE8ho32jr8k8IWZrHGuywrHLw==
+
+"@utrecht/web-component-library-react@1.0.0-alpha.57":
+  version "1.0.0-alpha.57"
+  resolved "https://registry.yarnpkg.com/@utrecht/web-component-library-react/-/web-component-library-react-1.0.0-alpha.57.tgz#40c65b5f0900a30d2ef2e11acc4ae1d46164d057"
+  integrity sha512-7x4XOlAWxkDAVNOprSx9JOSzI904YJBUefpRh03J8lLkc4XQhBVY4r0khVla3w+7Q9KMHBnxdM7Zr/4rzX7nbg==
+
+"@utrecht/web-component-library-stencil@1.0.0-alpha.57":
+  version "1.0.0-alpha.57"
+  resolved "https://registry.yarnpkg.com/@utrecht/web-component-library-stencil/-/web-component-library-stencil-1.0.0-alpha.57.tgz#f3e7ced25cd377d729b9a69889fe4e1fb38b9158"
+  integrity sha512-czKHvwqaQoskClD/h1ewB5Z6swLOpw1YOXaQ6m2JVKxjDyPCyPGg7nHMfQSzM1tcERhgf2EUWAjlcQoJv3Sy2A==
+  dependencies:
+    "@stencil/angular-output-target" "0.0.7"
+    "@stencil/core" "2.6.0"
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"

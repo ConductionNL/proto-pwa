@@ -9,6 +9,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "@utrecht/design-tokens": "1.0.0-alpha.51",
+    "@utrecht/web-component-library-react": "1.0.0-alpha.57",
+    "@utrecht/web-component-library-stencil": "1.0.0-alpha.57",
     "@api-platform/admin": "^2.6.0",
     "@emotion/cache": "^11.5.0",
     "@emotion/react": "^11.4.1",
